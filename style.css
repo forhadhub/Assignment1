@@ -151,3 +151,30 @@ main{
 .TargetCardP > a{
   color: #0D1321;
 }
+
+/* Next target section styles */
+.NextTargetCard{
+  margin-bottom: 60px;
+}
+.NextTargetCardP{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  border: 1px solid #0D1321;
+  font-size: small;
+  border-radius: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.NextTargetCardC > p{
+  font-size: small;
+  font-weight: 200;
+  padding: 14px 0;
+}
+.NextTargetCardC > h2{
+  padding-top: 14px;
+}
+.NextTargetCardC > a{
+  color: #0D1321;
+}
+
