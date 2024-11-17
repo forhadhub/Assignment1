@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.default-font {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+  }
+  
+  /* header styles */
+   header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px;
+  }
+  header > div > h1{
+    font-size: 24px;
+  }
+  .primary-button{
+    padding: 16px 30px;
+    border-radius: 5px;
+    border: 2px solid #0D1321;
+    background-color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Azeret Mono";
+    color: #0D1321;
+  }
+  .primary-button:hover{
+    background-color: rgba(240, 240, 240, 0.384);
+  }
+
+  /* banner styles */
+  .banner-background{
+    background-image: url("./assets/Hero-bg.png");
+    height: 630px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .banner{
+    text-align: center;
+  }
+.banner > h1{
+  font-size: 36px;
+  padding: 30px 0px;
+}
+.banner > p{
+  padding: 0px 400px 30px 400px;
+  font-size: small;
+  font-weight: 200;
+}
+
+/* development section styles */
+.DevSection{
+  margin: 0px 100px;
+  padding: 80px;
+  background-color: rgba(231, 231, 231, 0.5);
+  border-radius: 10px;
+}
+.DevTitle{
+  text-align: center;
+}
+.DevTitle > p{
+  padding: 20px 200px 40px 200px;
+  font-size: small;
+  font-weight: 200;
+}
+.DevSectionA{
+  background-color: rgba(255, 255, 255, 0.603);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.DevSectionA > .DevSectionA1 > p{
+  margin: 30px 0px 40px 0px;
+  padding-right:500px;
+  font-size: small;
+  font-weight: 200;
+  text-align: left;
+}
+.DevSectionB{
+  background-color: rgba(255, 255, 255, 0.603);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+.DevSectionB > .DevSectionB1 > p{
+  margin: 30px 0px 40px 0px;
+  padding-left:500px;
+  font-size: small;
+  font-weight: 200;
+  text-align: left;
+  text-align: right;
+}
