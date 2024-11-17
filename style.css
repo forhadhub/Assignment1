@@ -228,3 +228,16 @@ main{
   font-weight: 600;
   border: 0;
 }
+
+/* footer setion */
+footer{
+  background-color: rgba(0, 0, 0, 0.055);
+  height: 80px;
+}
+.footer{
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  align-items: center;
+}
