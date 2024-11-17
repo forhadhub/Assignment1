@@ -178,3 +178,53 @@ main{
   color: #0D1321;
 }
 
+/* support section styles */
+.support{
+  background-image: linear-gradient(
+    90deg, /* Horizontal gradient (left to right) */
+    rgba(32, 32, 32, 1) 0%,   /* Dark on the left */
+    rgba(0, 0, 0, 0.5) 40%,   /* Semi-dark in the middle */
+    rgba(0, 0, 0, 0.5) 60%,   /* Semi-dark in the middle */
+    rgba(32, 32, 32, 1) 100%  /* Dark on the right */
+  ), url(./assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  height: 250px;
+  padding-top: 30px;
+}
+.SupportTitle{
+  margin-top: 40px;
+  text-align: center;
+}
+.SupportTitle > h2{
+  color: white;
+}
+.SupportTitle > p{
+  padding: 16px 400px;
+  font-size: small;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.788)
+}
+.support > form{
+  text-align: center;
+}
+.field{
+  font-family: "Azeret Mono";
+  width: 400px;
+  height: 36px;
+  padding: 06px;
+  border-radius: 5px;
+  border: 0;
+}
+.submit{
+  font-family: "Azeret Mono";
+  background-color: white;
+  width: 100px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+}
