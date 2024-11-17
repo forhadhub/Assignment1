@@ -117,3 +117,37 @@ main{
   font-size: small;
   font-weight: 200;
 }
+
+/* current target section style */
+.TargetTitle{
+  margin-top: 40px;
+  text-align: center;
+}
+.TargetTitle > p{
+  padding: 20px 250px 40px 250px;
+  font-size: small;
+  font-weight: 200;
+}
+.TargetCard{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.TargetCardP{
+  padding: 20px;
+  font-size: small;
+  border-radius: 10px;
+}
+.TargetCardP > p{
+  font-size: small;
+  font-weight: 200;
+  width: 300px;
+  padding: 14px 0;
+}
+.TargetCardP > h2{
+  padding-top: 14px;
+}
+.TargetCardP > a{
+  color: #0D1321;
+}
